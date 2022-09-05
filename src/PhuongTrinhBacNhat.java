@@ -11,8 +11,8 @@ public class PhuongTrinhBacNhat {
         System.out.print("nhap so c ");
         double c = sc.nextDouble();
         if (a != 0){
-            double answer = (c - b)/a;
-            System.out.println(answer);
+            double x = (c - b)/a;
+            System.out.println(x);
         }
         else {
             if (b == c){
